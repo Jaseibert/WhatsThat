@@ -13,6 +13,7 @@
 		5BD6D8A41F1E7F2C005FBBDF /* What_s_That_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6D8A21F1E7F2C005FBBDF /* What_s_That_.xcdatamodeld */; };
 		5BD6D8A61F1E7F2C005FBBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6D8A51F1E7F2C005FBBDF /* Assets.xcassets */; };
 		5BD6D8A91F1E7F2C005FBBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6D8A71F1E7F2C005FBBDF /* LaunchScreen.storyboard */; };
+		5BD6D8B11F1E7FD1005FBBDF /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6D8B01F1E7FD1005FBBDF /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5BD6D8A51F1E7F2C005FBBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD6D8A81F1E7F2C005FBBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD6D8AA1F1E7F2C005FBBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD6D8B01F1E7FD1005FBBDF /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				5BD6D89B1F1E7F2C005FBBDF /* AppDelegate.swift */,
 				5BD6D89D1F1E7F2C005FBBDF /* ViewController.swift */,
+				5BD6D8B01F1E7FD1005FBBDF /* Resnet50.mlmodel */,
 				5BD6D89F1F1E7F2C005FBBDF /* Main.storyboard */,
 				5BD6D8A51F1E7F2C005FBBDF /* Assets.xcassets */,
 				5BD6D8A71F1E7F2C005FBBDF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				5BD6D8A41F1E7F2C005FBBDF /* What_s_That_.xcdatamodeld in Sources */,
 				5BD6D89E1F1E7F2C005FBBDF /* ViewController.swift in Sources */,
+				5BD6D8B11F1E7FD1005FBBDF /* Resnet50.mlmodel in Sources */,
 				5BD6D89C1F1E7F2C005FBBDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
